@@ -1,0 +1,34 @@
+# DirHunt – Project Demonstration
+
+**Student:** Zaeem Ali  
+**Instructor:** Abdul Mannan  
+**Institute:** PNY Trainings
+
+## Project Objective
+
+To develop a Python-based web security tool for authorized local lab testing.
+
+## Lab Environment
+
+Kali Linux, Docker and OWASP Juice Shop.
+
+## Implemented Features
+
+- HTTP response analysis
+- SHA-256 content hashing
+- Random missing-page baseline
+- Soft-404 filtering
+- Multithreading
+- Report generation
+
+## Observation
+
+Juice Shop returned HTTP status 200 for a nonexistent path. This demonstrates why status codes alone are insufficient for identifying valid pages.
+
+## Limitations
+
+The current implementation uses fixed local test paths. General wordlist-based discovery and configurable target URLs remain incomplete.
+
+## GitHub Repository
+
+https://github.com/mian100/DirHunt
